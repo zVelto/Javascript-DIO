@@ -1,6 +1,23 @@
 
+function soma(n1, n2){
+    return n1 + n2
+}
+
+function validaIdade(idade){
+    if(idade >=18){
+        return true
+    }else{
+        return false
+    }
+}
+
+alert(soma(5, 10))
+alert(validaIdade(prompt("Qual a sua idade?")))
+
+/*
 var d = new Date
 alert(d.getMinutes())
+*/
 
 /*
 var count
